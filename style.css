@@ -38,3 +38,22 @@ input[type="text"] {
   color: #fff;
   box-sizing: border-box;
 }
+/* Style the submit button */
+button {
+  background-color: #bb86fc; /* Matching your elegant purple label color */
+  color: #121212;            /* Dark text inside the bright button */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;               /* Makes the button match the full width of your inputs */
+  margin-top: 10px;          /* Adds some breathing room above the button */
+  transition: background-color 0.2s ease; /* Makes the hover color change smooth */
+}
+
+/* Make it change color when the mouse moves over it */
+button:hover {
+  background-color: #9965db; /* A slightly darker shade of purple */
+}
